@@ -1,0 +1,13 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Bnav-Container{
+    display: flex;
+}
+
+.Nav-Info{
+    display: flex;
+    background-color: bisque;
+}
