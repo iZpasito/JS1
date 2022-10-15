@@ -5,16 +5,8 @@ import BarraNav from "../components/bnav";
 //import { useState } from "react";
 import Rfooter from "../components/footer";
 import Rhead from "../components/header";  
-//const xd =[1,2,3,5];
+import Ffooter from "../components/finfooter";
 
-/* const alumnos = [
-
-    {Ramo: 'lenguaje',
-    Nombre: 'romina'},
-    {Ramo: 'matematica',
-    Nombre: 'pedro'}
-
-] */
 
 
 
@@ -23,7 +15,7 @@ export default function Login(){
         <div>
             <Rhead/>
             <BarraNav/>
-            <div>
+            <div id='conten'>
                 <h1>LOGIN</h1>
                 <form>
                     <div><input type="text" placeholder="R.U.N Ej:10.264.294-8"></input></div>
@@ -35,6 +27,7 @@ export default function Login(){
             </div>
             <hr/>
             <Rfooter/>
+            <Ffooter/>
         </div>
     )
 }
