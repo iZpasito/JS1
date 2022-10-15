@@ -9,11 +9,11 @@ export default function BarraNav () {
     return(
         <div className="Container">
             <nav className="Menu">
-                <div className="">
+                <div className="Imenu">
                     <img src={Gato} alt="gato"/>
-                <div className="tet">
-                    <h1>Escuela rapta niños</h1>
-                </div>  
+                    <div className="tet">
+                        <h1>Escuela rapta niños</h1>
+                    </div>  
                 </div>
                 <div className='menu' >
                     <ul>

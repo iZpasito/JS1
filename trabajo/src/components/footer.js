@@ -23,7 +23,7 @@ export default function Rfooter(){
                     </div>
                 </div>
             </div>
-            <div>
+            <div id='contact-footer'>
                 <div className="Contactos">Contactos</div>
                 <div><HiLocationMarker size='27px'/> Nunca jamas jiji</div>
                 <div><FaPhoneAlt size='27px'/> 9 7510 2133</div>

@@ -12,15 +12,9 @@ export default function Home1(){
             <Rhead/>
             <BarraNav/>
         <div  id='conten'>
-            <div>
-                <h1>CONTENIDO</h1>
-                <h1>CONTENIDO</h1>
-                <h1>CONTENIDO</h1>
-                <h1>CONTENIDO</h1>
-                <h1>CONTENIDO</h1>
-                
-
+            <div className="page-border">
             </div>
+            <div><h1>hola</h1></div>
         </div>
         <hr/>
         <Rfooter/>

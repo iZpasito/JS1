@@ -19,7 +19,7 @@ export default function RegUsu(){
                         <div><input type="text" placeholder="Apellido Materno"></input></div>
                         <div><input type="text" placeholder="Contraseña"></input></div>
                         <div><input type="text" placeholder="Rol"></input></div>
-                        <button>Registrar</button>
+                        <button>Registrar</button> 
                     </form>
                 </div>
             </div>
