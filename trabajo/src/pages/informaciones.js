@@ -18,10 +18,11 @@ export default function Informaciones(){
                         <button>Enviar</button>
                     </form>
                 </div>
+                <div className="fffooter">
+                    <Rfooter/>
+                    <Ffooter/> 
+                </div>
             </div>
-            <hr/>
-            <Rfooter/>
-            <Ffooter/>
         </div>
     )
 }

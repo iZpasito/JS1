@@ -10,39 +10,27 @@ export default function Rfooter(){
     return(
         <div className="Footer-fondo">
             <div className="Acerca-de-c">
-                <div className="Acerca">Acerca de</div>
+                <div className="Acerca"><h2>Acerca de</h2></div>
                 <div>
-                    <div className="QSomos"><p>Somos un colegio ilegal donde lavamos dinero y robamos niños.</p></div>
+                    <div className="QSomos"><p>Alywen es una 
+                        Escuela de pedagogía Waldorf ubicada en Talca, 
+                        que ofrece una educación humanizadora, 
+                        integral y en armonía con la naturaleza.</p></div>
                 </div>
-                <div>
+                <div className="contenedor-fi">
                     <div className="FC-footer">
-                        <a href="www.facebook.com"><FaFacebook size='27px'/></a>
+                        <a href="www.facebook.com"><FaFacebook size='23px'/></a>
                     </div>
                     <div className="Ig-footer">
-                        <a className="Ig-link" href="www.instagram.com"><FaInstagram size='27px'/></a>
+                        <a className="Ig-link" href="www.instagram.com"><FaInstagram size='23px'/></a>
                     </div>
                 </div>
             </div>
             <div id='contact-footer'>
-                <div className="Contactos">Contactos</div>
-                <div><HiLocationMarker size='27px'/> Nunca jamas jiji</div>
-                <div><FaPhoneAlt size='27px'/> 9 7510 2133</div>
-                <div><SiGmail size='27px'/> contacto@contacto.cl</div>
-            </div>
-            <div>
-                <div className="pg-ct"></div>
-                <div className="Contactanos">Contactanos</div>
-                <div className="pg-mgbox"></div>
-                <form>
-                    <div><input type='text' placeholder='Nombre'></input></div>
-                    <div><input type='email'placeholder='Email'></input></div>
-                    <div><input type='text' placeholder='Asunto'></input></div>
-                    <div><input type='tel' placeholder='Telefono'></input></div>
-                    <div><textarea rows='6' placeholder='Mensaje'></textarea></div>
-                    <div><button type='sumbit'><i className="Env-but">Enviar</i></button></div>
-                </form>
-            <div>
-            </div>
+                <div className="Contactos"><h2>Contactos</h2></div>
+                <div><HiLocationMarker size='18px'/> Nunca jamas jiji</div>
+                <div><FaPhoneAlt size='18px'/> 9 7510 2133</div>
+                <div><SiGmail size='18px'/> contacto@contacto.cl</div>
             </div>
             </div>
     )

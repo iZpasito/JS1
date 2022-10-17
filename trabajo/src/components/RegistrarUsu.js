@@ -2,6 +2,7 @@ import React from "react";
 import BarraNav from "../components/bnav";
 import Rfooter from "../components/footer";
 import Rhead from "../components/header";
+import Ffooter from "./finfooter";
 
 
 export default function RegUsu(){
@@ -24,7 +25,10 @@ export default function RegUsu(){
                 </div>
             </div>
             <hr/>
+            <div className="fffooter">
             <Rfooter/>
+            <Ffooter/>
+        </div>
         </div>
     )
 }

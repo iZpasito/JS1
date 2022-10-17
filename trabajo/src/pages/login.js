@@ -16,18 +16,21 @@ export default function Login(){
             <Rhead/>
             <BarraNav/>
             <div id='conten'>
-                <h1>LOGIN</h1>
-                <form>
-                    <div><input type="text" placeholder="R.U.N Ej:10.264.294-8"></input></div>
-                    <div><input type="text" placeholder="Contraseña"></input></div>
-                </form>
-                <Link to='/register/usuario'>Registra Usuario</Link>
-                <br/>
-                <Link to='/recover/contraseña'>¿Olvidaste tu contraseña?</Link>
+                <div className="Log-in">
+                    <h1>LOGIN</h1>
+                    <h3>RUT</h3>
+                        <div><input type="text" placeholder="EJ:10.264.294-8"></input></div>
+                    <h3>Contraseña</h3>
+                        <div><input type="text" placeholder="Contraseña"></input></div>
+                    <Link  className="reg"  to='/register/usuario'>Registra Usuario</Link>
+                    <br/>
+                    <Link className="rec" to='/recover/contraseña'>¿Olvidaste tu contraseña?</Link>
+                </div>
+            <div className="fffooter">
+                <Rfooter/>
+                <Ffooter/> 
+            </div>   
             </div>
-            <hr/>
-            <Rfooter/>
-            <Ffooter/>
         </div>
     )
 }

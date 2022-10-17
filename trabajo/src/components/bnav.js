@@ -1,6 +1,6 @@
 import React from "react"
 import {NavLink} from 'react-router-dom'
-import Gato from '../images/gato.jpg' 
+import ewaldorf from '../images/ewaldorf.png'
 
 
 
@@ -10,9 +10,9 @@ export default function BarraNav () {
         <div className="Container">
             <nav className="Menu">
                 <div className="Imenu">
-                    <img src={Gato} alt="gato"/>
+                    <img  className="Esc-im" src={ewaldorf} alt="ewalforf"/>
                     <div className="tet">
-                        <h1>Escuela rapta niños</h1>
+                        <h1>Escuela Waldorf Alywen</h1>
                     </div>  
                 </div>
                 <div className='menu' >

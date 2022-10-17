@@ -15,10 +15,11 @@ export default function Home1(){
             <div className="page-border">
             </div>
             <div><h1>hola</h1></div>
+        <div className="fffooter">
+            <Rfooter/>
+            <Ffooter/> 
         </div>
-        <hr/>
-        <Rfooter/>
-        <Ffooter/>
+        </div>
         </div>
     )
 }
