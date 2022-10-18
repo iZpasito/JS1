@@ -10,19 +10,20 @@ export default function Informaciones(){
             <Rhead/>
             <BarraNav/>
             <div id='conten'>
-                <div >
+                <div className="Infor-cont">
+                    <div className="infor-cont-final">
                     <h1>Informaciones</h1>
-                    <form>
-                        <div><input type="text" placeholder="Titulo"></input></div>
-                        <div><textarea row='6' placeholder="Comentario"></textarea></div>
-                        <button>Enviar</button>
-                    </form>
+                        <div><input className="titulo-inf" type="text" placeholder="Titulo"></input></div>
+                    <h2>Asunto</h2>
+                        <div><textarea className="text-inf" row='6' placeholder="Comentario"></textarea></div>
+                        <button className="btn-env">Enviar</button>
+                    </div>
+
                 </div>
-                <div className="fffooter">
-                    <Rfooter/>
-                    <Ffooter/> 
-                </div>
+
             </div>
+            <Rfooter/>
+            <Ffooter/>    
         </div>
     )
 }

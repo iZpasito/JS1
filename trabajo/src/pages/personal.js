@@ -17,10 +17,8 @@ export default function Personal(){
                         <th>XD</th>
                     </table>
                 </div>
-            <div className="fffooter">
                 <Rfooter/>
                 <Ffooter/> 
-            </div>
             </div>
         </div>
     )

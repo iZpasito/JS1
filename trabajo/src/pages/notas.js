@@ -17,10 +17,8 @@ export default function Notas(){
                         <th>XD</th>
                     </table>
                 </div>
-                <div className="fffooter">
-                    <Rfooter/>
+                <Rfooter/>
                 <Ffooter/> 
-            </div>
             </div>
         </div>
     )

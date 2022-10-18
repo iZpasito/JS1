@@ -28,9 +28,9 @@ export default function Rfooter(){
             </div>
             <div id='contact-footer'>
                 <div className="Contactos"><h2>Contactos</h2></div>
-                <div><HiLocationMarker size='18px'/> Nunca jamas jiji</div>
-                <div><FaPhoneAlt size='18px'/> 9 7510 2133</div>
-                <div><SiGmail size='18px'/> contacto@contacto.cl</div>
+                <div><HiLocationMarker size='18px'/> Sector Las Tinajas. Talca, Chile</div>
+                <div><FaPhoneAlt size='18px'/> 9 5056 5403</div>
+                <div><SiGmail size='18px'/> alyweneducacion@gmail.com</div>
             </div>
             </div>
     )

@@ -7,10 +7,10 @@ export default function Rhead(){
     return(
         <div className="pagePhone">
             <div id='p1'>
-                <Link id='ap1' to='/'><FaPhoneAlt size='18px'/> Contacto +569 7510 2136 </Link>
+                <Link id='ap1' to='/'><FaPhoneAlt size='18px'/> Contacto +569 5056 5403</Link>
             </div>
             <div id='p2'>
-            <Link id='ap2' to='/'><SiGmail size='18px'/> Contacto@contacto.cl</Link>
+            <Link id='ap2' to='/'><SiGmail size='18px'/>  alyweneducacion@gmail.com</Link>
             </div>
         </div>
     )
