@@ -1,0 +1,10 @@
+.navcont{
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: rgba(88, 172, 71, 0.816);
+    margin-left: 10px;
+    border-radius: 4px;
+    font-style: bold;
+}

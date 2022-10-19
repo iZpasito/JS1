@@ -1,0 +1,71 @@
+.Notas-Cont{
+    background-color: rgba(239, 224, 224, 0.621);
+    text-align: center;
+    margin:3vh 33vw;
+    border-radius: 10px;
+    display: block;
+}
+td, th{
+    display: flex block;
+    font-family: 'Poppins';
+    padding: 8px;
+    letter-spacing: 1px;
+    margin-left: 8px;
+    
+    
+}
+
+.table-notasf {
+    text-align: center;
+    margin:1px 30vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5px;
+    border-bottom:rgba(148, 145, 145, 0.45);
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.table-notasf, td ,th{
+    border-bottom: 2px solid rgba(148, 145, 145, 0.45);
+
+}
+
+*{
+    font-family: 'Poppins';
+}
+
+
+
+.btn-del{
+    background-color: rgba(255, 0, 0, 0.638);
+    opacity: 1;
+    padding: 4px;
+    font-style: bolder;
+    border-radius: 5px;
+    
+}
+
+.btn-del:active{
+    opacity: 0.7;
+}
+
+.btn-edit{
+    background-color: rgba(83, 226, 16, 0.758);
+    opacity: 1;
+    padding: 4px;
+    font-style: bolder;
+    border-radius: 5px;
+}
+
+.btn-edit:active{
+    opacity: 0.8;
+}
+
+.btn-edit-u{
+    background-color: rgba(16, 152, 226, 0.758);
+    opacity: 1;
+    padding: 4px;
+    font-style: bolder;
+    border-radius: 5px;
+}

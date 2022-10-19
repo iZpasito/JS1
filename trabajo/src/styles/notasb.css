@@ -1,0 +1,52 @@
+.Notas-fron{
+    background-color: rgba(239, 224, 224, 0.621);
+    text-align: center;
+    margin:3vh 33vw;
+    border-radius: 10px;
+    display: block;
+}
+
+.cont-not-b{
+    background-color: rgba(231, 217, 217, 0.418);
+    margin-left: 23vw;
+    margin-right: 23vw;
+    padding: 10px 3vh 3vh 10px;
+    justify-content: center;
+    margin-top: 9vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-crear-xd{
+    background-color: black;
+    margin-top: -14.7vh;
+    margin-left: 48vw;
+    margin-right: 49vw;
+    border-radius: 8px;
+
+
+}
+.btn-crear-xdd{
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+        background-color: rgba(98, 98, 164, 0.952);
+}
+
+.btn-crear-xd:active{
+    background-color: blue;
+}
+
+select{
+    padding: 4px;
+}
+.form-not-b input{
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.form-not-b{
+    padding-left: 10px;
+    margin-top: 10px;
+}

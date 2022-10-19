@@ -1,0 +1,16 @@
+.post-right-content{
+    background-color: rgba(255, 255, 255, 0.775);
+    justify-content: center;
+    text-align: justify;
+    margin-top: 8vh;
+    padding: 13vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border-radius: 10px;
+}
+
+.hr1{
+    margin-left: 34vw;
+    margin-right: 34vw;
+    margin-top: -2vh;
+}

@@ -31,7 +31,7 @@ export default function Rfooter(){
                 <div><HiLocationMarker size='18px'/> Sector Las Tinajas. Talca, Chile</div>
                 <div><FaPhoneAlt size='18px'/> 9 5056 5403</div>
                 <div><SiGmail size='18px'/> alyweneducacion@gmail.com</div>
-            </div>
-            </div>
+            </div> 
+        </div>
     )
 }

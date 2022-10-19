@@ -10,8 +10,8 @@ export default function RegUsu(){
         <div>
             <Rhead/>
             <BarraNav/>
-            <div>
-                <div>
+            <div className="conten">
+                <div className="cont-rs">
                     <h1>Registrar Usuario</h1>
                     <form>
                         <div><input type="text" placeholder="R.U.N Ej:10.264.294-8"></input></div>
@@ -24,11 +24,8 @@ export default function RegUsu(){
                     </form>
                 </div>
             </div>
-            <hr/>
-            <div className="fffooter">
             <Rfooter/>
             <Ffooter/>
-        </div>
         </div>
     )
 }

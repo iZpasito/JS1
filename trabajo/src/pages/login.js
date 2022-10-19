@@ -5,8 +5,7 @@ import BarraNav from "../components/bnav";
 import Rfooter from "../components/footer";
 import Rhead from "../components/header";  
 import Ffooter from "../components/finfooter";
-
-
+import '../styles/login.css'
 
 
 export default function Login(){
@@ -14,15 +13,15 @@ export default function Login(){
         <div>
             <Rhead/>
             <BarraNav/>
-            <div id='conten'>
+            <div id='conten1'>
                 <div className="Log-in">
-                    <h1>LOGIN</h1>
-                    <h3>RUT</h3>
-                        <div><input type="text" placeholder="EJ:10.264.294-8"></input></div>
-                    <h3>Contraseña</h3>
-                        <div><input type="text" placeholder="Contraseña"></input></div>
+                    <h1 className="h1lg">LOGIN</h1>
+                    <label className="lab1">RUT</label>
+                        <div><input className="inp1"  type="text" placeholder="10.264.294-8"></input></div>
+                    <label className="lab2">Contraseña</label>
+                        <div><input className="inp2" type="text" placeholder="Contraseña"></input></div>
+                    <div><button className="btn-log">Iniciar Sesion</button></div>
                 </div>
-
             </div>
             <Rfooter/>
             <Ffooter/>  
