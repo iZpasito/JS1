@@ -16,12 +16,12 @@ export default function Notas(){
                 <div className="cont-not-b">
                     <form className="form-not-b">
                         <select name="Asignatura">
-                          <option value="">Lenguaje y Comunicaciones</option>
-                          <option value="">Matematicas</option>
-                          <option value="">Ciencias Sociales</option>
-                          <option value="">Ciencias Naturales</option>
-                          <option value="">Ed. Fisica</option>
-                          <option value="">Ingles</option>
+                          <option value="Lenguaje y Comunicaciones">Lenguaje y Comunicaciones</option>
+                          <option value="Matematicas">Matematicas</option>
+                          <option value="Ciencias Sociales">Ciencias Sociales</option>
+                          <option value="Ciencias Naturales">Ciencias Naturales</option>
+                          <option value="Ed. Fisica">Ed. Fisica</option>
+                          <option value="Ingles">Ingles</option>
                         </select>
                         <input type='number' placeholder="Nota" ></input>
                         <input type='text' placeholder="Descripcion" size='60'></input>

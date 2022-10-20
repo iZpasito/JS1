@@ -22,11 +22,11 @@ export default function BarraNav () {
                             <NavLink id='NavClick'to='/'>Home</NavLink>
                         </li>
                         </div >
-                        <div className="navcont">
+{/*                         <div className="navcont">
                         <li>    
                             <NavLink id='NavClick' to='/personal'>Personal</NavLink>
                         </li>
-                        </div>
+                        </div> */}
                         <div className="navcont">
                         <li>  
                             <NavLink id='NavClick' to='/notas'>NotasCrea</NavLink>
@@ -57,6 +57,11 @@ export default function BarraNav () {
                             <NavLink id='NavClick'  to='/login'>Login</NavLink>
                         </li>
                         </div>
+                        <div className="navcont">
+                        <li>
+                            <NavLink id='NavClick'  to='/edit/informaciones'>AvisosD</NavLink>
+                        </li>
+                        </div>
                     </ul>
                     <div>
                         <button id='xd1'>
@@ -71,5 +76,4 @@ export default function BarraNav () {
         </div>
     )
 }
-
 

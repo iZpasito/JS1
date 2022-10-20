@@ -1,16 +1,85 @@
 .post-right-content{
     background-color: rgba(255, 255, 255, 0.775);
     justify-content: center;
-    text-align: justify;
-    margin-top: 8vh;
-    padding: 13vh;
+    margin-top: 4vh;
+    padding: 150px 150px 40px 150px;
     margin-left: 30vw;
     margin-right: 30vw;
     border-radius: 10px;
+    word-wrap: break-word;
+    text-align: justify;
 }
 
 .hr1{
     margin-left: 34vw;
     margin-right: 34vw;
-    margin-top: -2vh;
+    margin-top: -1vh;
+}
+
+.Container-text{
+    margin-top: -9vh;
+    margin-left: -4vw;
+    word-wrap: break-word;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.Container-bod{
+    margin-top: 15px;
+    margin-left: -4vw;
+    margin-right: -5vw;
+    padding-bottom: 10vh;
+}
+
+
+.h2-upd{
+    text-align: justify;
+    overflow-wrap: break-word;
+    margin: 0 -8vw;
+    border-radius: 10px;
+    color: rgb(251, 252, 250);
+    background-color: rgba(0, 0, 0, 0.592);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titulo-upd-inf{
+    padding: none;
+    margin-left: 12vw;
+}
+
+.Container-text{
+    overflow-wrap: break-word;
+}
+.btn-edit-upinf{
+    background-color: rgba(85, 247, 10, 0.758);
+    opacity: 1;
+    padding: 4px;
+    font-style: bolder;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+.btn-edit-upinf:hover{
+    opacity: 0.8;
+}
+
+.btn-del-upinf{
+    background-color: rgba(255, 0, 0, 0.638);
+    opacity: 1;
+    padding: 4px;
+    font-style: bolder;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+
+
+.cont-btn-del-upinf{
+    margin-right: 17vw;
+    margin-top: 2vh;
+    display: flex;
 }

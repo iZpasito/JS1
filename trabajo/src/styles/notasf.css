@@ -23,7 +23,7 @@ td, th{
     padding-top: 5px;
     border-bottom:rgba(148, 145, 145, 0.45);
     justify-content: center;
-    margin-top: 8vh;
+    margin-top: 3vh;
 }
 
 .table-notasf, td ,th{
@@ -43,7 +43,8 @@ td, th{
     padding: 4px;
     font-style: bolder;
     border-radius: 5px;
-    
+    margin-left: 5px;
+    color: white;
 }
 
 .btn-del:active{
@@ -51,11 +52,14 @@ td, th{
 }
 
 .btn-edit{
-    background-color: rgba(83, 226, 16, 0.758);
+    background-color: rgba(85, 247, 10, 0.758);
     opacity: 1;
     padding: 4px;
     font-style: bolder;
     border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+
 }
 
 .btn-edit:active{

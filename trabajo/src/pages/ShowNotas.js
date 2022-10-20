@@ -23,7 +23,7 @@ export default function NotasF(){
                             <tr>
                                 <td>Matematicas</td>
                                 <td>3,0</td>
-                                <td>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</td>
+                                <td>asdsadadsadasdadasdadaskkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</td>
                             </tr>
                         </tbody>
                     </table>

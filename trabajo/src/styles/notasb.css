@@ -18,7 +18,6 @@
 }
 
 .btn-crear-xd{
-    background-color: black;
     margin-top: -14.7vh;
     margin-left: 48vw;
     margin-right: 49vw;
@@ -33,8 +32,15 @@
         background-color: rgba(98, 98, 164, 0.952);
 }
 
-.btn-crear-xd:active{
-    background-color: blue;
+.btn-crear-xdd1{
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(98, 98, 164, 0.952);
+    margin-top: -14.7vh;
+    margin-left: 48vw;
+    margin-right: 49vw;
+    border-radius: 8px;
 }
 
 select{

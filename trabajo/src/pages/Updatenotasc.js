@@ -15,6 +15,7 @@ export default function NotasCE(){
             <BarraNav/>
             <div id='conten'> 
                 <div className="Notas-Cont"><h1>Nombre del Alumno: {chelo} </h1></div>
+                <div className="btn-crear-xd1"><button className="btn-crear-xdd1"><Link to='/notas'>Crear</Link></button></div>
                     <table className="table-notasf">
                         <tbody>
                             <tr>
@@ -28,8 +29,8 @@ export default function NotasCE(){
                                 <td>3,0</td>
                                 <td>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</td>
                                 <td>                        
-                                    <button className="btn-edit"><Link to='/edit/notas'>Editar</Link></button>
-                                    <button className="btn-del">Eliminar</button>
+                                    <button type='submit'className="btn-edit"><Link to='/edit/notas'>Editar</Link></button>
+                                    <button type='submit'className="btn-del">Eliminar</button>
                                 </td>
                             </tr>
                         </tbody>

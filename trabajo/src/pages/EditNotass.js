@@ -28,7 +28,7 @@ export default function NotasC(){
                                 <td><input type='number'></input></td>
                                 <td className='edit-td'><input className="edit-tarea" type='text' size='60'></input></td>
                                 <td>                        
-                                    <button className="btn-edit-u"><Link to='/notasf'>Enviar</Link></button> 
+                                    <button type='submit'className="btn-edit-u"><Link to='/notasf'>Enviar</Link></button> 
                                 </td>
                             </tr>
                         </tbody>
